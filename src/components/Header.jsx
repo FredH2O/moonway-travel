@@ -59,9 +59,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full bg-primary text-secondary">
-      <nav className="flex justify-between items-center p-4">
-        <div className="flex items-center">
+    <header className="relative w-full bg-primary text-secondary z-50">
+      <nav className="flex justify-between items-center p-4 z-50">
+        <div className="flex items-center z-50">
           <img src="./images/moonwayLogo.png" alt="Logo" className="h-10" />
           <h1 className="font-bold text-xl ml-2">Moonway Travels</h1>{" "}
         </div>
@@ -94,9 +94,9 @@ const Header = () => {
         {/* mmobile screen */}
         {menuOpen ? (
           <ul
-            className={`animate__animated ${
+            className={`z-0 animate__animated ${
               animation ? "animate__fadeOutUp" : "animate__slideInDown"
-            } -z-10 absolute flex flex-col items-center space-y-4 top-16 left-0 w-full bg-primary text-secondary lg:hidden p-4`}
+            } absolute flex flex-col items-center space-y-4 top-16 left-0 w-full bg-primary text-secondary lg:hidden p-4`}
           >
             {navigationLinks.map(({ to, label, icon }) => (
               <li className="flex border-secondary" key={to}>
@@ -104,7 +104,7 @@ const Header = () => {
                 <Link
                   to={to}
                   aria-label={label}
-                  className="ml-2 hover:text-accent transition duration-300"
+                  className="ml-2 z-0 hover:text-accent transition duration-300"
                 >
                   {label}
                 </Link>
