@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Bars3Icon,
   XMarkIcon,
@@ -13,9 +13,16 @@ import {
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [animation, setAnimation] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen((prev) => !prev);
+    menuOpen
+      ? (setAnimation(true),
+        setTimeout(() => {
+          setAnimation(false);
+          setMenuOpen(false);
+        }, 600))
+      : setMenuOpen(true);
   };
 
   const navigationLinks = [
@@ -72,9 +79,8 @@ const Header = () => {
 
         {/* desktop */}
         <ul className="hidden lg:flex space-x-6">
-          {navigationLinks.map(({ to, label, icon }) => (
+          {navigationLinks.map(({ to, label }) => (
             <li className="flex" key={to}>
-              {icon}
               <Link
                 to={to}
                 className="ml-1 hover:text-accent transition-all duration-200"
@@ -87,9 +93,13 @@ const Header = () => {
 
         {/* mmobile screen */}
         {menuOpen ? (
-          <ul className="absolute space-y-4 top-0 left-0 w-full bg-primary text-secondary lg:hidden p-4">
+          <ul
+            className={`animate__animated ${
+              animation ? "animate__fadeOutUp" : "animate__slideInDown"
+            } -z-10 absolute flex flex-col items-center space-y-4 top-16 left-0 w-full bg-primary text-secondary lg:hidden p-4`}
+          >
             {navigationLinks.map(({ to, label, icon }) => (
-              <li className="flex" key={to}>
+              <li className="flex border-secondary" key={to}>
                 {icon}
                 <Link
                   to={to}
