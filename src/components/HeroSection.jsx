@@ -1,3 +1,5 @@
+import Booking from "./Booking";
+
 const HeroSection = () => {
   return (
     <div className="relative w-full h-screen">
@@ -16,8 +18,9 @@ const HeroSection = () => {
             dream destination awaits!
           </p>
           <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-accent hover:text-black transition mt-5">
-            Start Your Journey
+            Book Now !
           </button>
+          <Booking />
         </div>
       </div>
     </div>
