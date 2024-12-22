@@ -12,7 +12,7 @@ const HotelDetails = () => {
   useEffect(() => {
     const fetchHotelDetails = async () => {
       try {
-        const response = await axios.get(`/data/hotels.json`);
+        const response = await axios.get(`/moonway-travel/data/hotels.json`);
         const selectedHotel = response.data.find(
           (hotel) => hotel.id === parseInt(id)
         );
@@ -43,7 +43,7 @@ const HotelDetails = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="max-w-4xl md:my-10 w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          src={hotel.imageUrl}
+          src={`/moonway-travel/${hotel.imageUrl}`}
           alt={hotel.name}
           className="w-full h-64 object-cover"
         />
@@ -150,7 +150,7 @@ const HotelDetails = () => {
 
           <div className="text-center mt-6">
             <Link
-              to={"/confirmed"}
+              to={"/moonway-travel/confirmed"}
               className="bg-accent hover:bg-blue-500 text-white py-2 px-4 rounded-full"
             >
               Book Now

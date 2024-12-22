@@ -20,7 +20,7 @@ const HotelCard = ({ id, image, name, location, rating }) => {
         <p className="mb-3 font-normal text-gray-400">Location: {location}</p>
         <p className="mb-3 font-normal text-gray-400">Rating: ⭐ {rating}</p>
         <Link
-          to={`/hotels/${id}`}
+          to={`/moonway-travel/hotels/${id}`}
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-4 text-white bg-green-600 rounded-lg hover:bg-green-700 focus:ring-1 focus:outline-none focus:ring-accent"
         >
           Read more <ArrowLongRightIcon className="w-5 ml-1" />

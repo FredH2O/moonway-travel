@@ -13,16 +13,18 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/under-construction">Moonway Plus</Link>
+              <Link to="/moonway-travel/under-construction">Moonway Plus</Link>
             </li>
             <li>
-              <Link to="/under-construction">Moonway Premium Rooms</Link>
+              <Link to="/moonway-travel/under-construction">
+                Moonway Premium Rooms
+              </Link>
             </li>
             <li>
-              <Link to="/under-construction">Our Rooms</Link>
+              <Link to="/moonway-travel/under-construction">Our Rooms</Link>
             </li>
             <li>
-              <Link to="/under-construction">Deal Offers</Link>
+              <Link to="/moonway-travel/under-construction">Deal Offers</Link>
             </li>
           </ul>
         </div>
@@ -34,19 +36,25 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/under-construction">Blog</Link>
+              <Link to="/moonway-travel/under-construction">Blog</Link>
             </li>
             <li>
-              <Link to="/hotels">Find a Hotel</Link>
+              <Link to="/moonway-travel/hotels">Find a Hotel</Link>
             </li>
             <li>
-              <Link to="/under-construction">Wedding Accommodations</Link>
+              <Link to="/moonway-travel/under-construction">
+                Wedding Accommodations
+              </Link>
             </li>
             <li>
-              <Link to="/under-construction">Conference Accommodations</Link>
+              <Link to="/moonway-travel/under-construction">
+                Conference Accommodations
+              </Link>
             </li>
             <li>
-              <Link to="/under-construction">Group Bookings</Link>
+              <Link to="/moonway-travel/under-construction">
+                Group Bookings
+              </Link>
             </li>
           </ul>
         </div>
@@ -60,7 +68,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Covid-19
               </Link>
@@ -68,7 +76,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Our Responsibilities
               </Link>
@@ -76,7 +84,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Testimonials
               </Link>
@@ -84,7 +92,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Newsletters
               </Link>
@@ -92,7 +100,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Travel Tips
               </Link>
@@ -107,14 +115,17 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link className="hover:text-accent transition-all" to="/contact">
+              <Link
+                className="hover:text-accent transition-all"
+                to="/moonway-travel/contact"
+              >
                 Contact Us
               </Link>
             </li>
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Careers
               </Link>
@@ -122,7 +133,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 T&Cs
               </Link>
@@ -130,7 +141,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Privacy Policy
               </Link>
@@ -138,7 +149,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Data Access
               </Link>
@@ -146,7 +157,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/under-construction"
+                to="/moonway-travel/under-construction"
               >
                 Cookies
               </Link>

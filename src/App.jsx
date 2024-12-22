@@ -11,35 +11,35 @@ import BookingConfirmed from "./pages/Confirmed";
 
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    path: "/moonway-travel/",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/moonway-travel/",
         element: <HomePage />,
       },
       {
-        path: "/about",
+        path: "/moonway-travel/about",
         element: <About />,
       },
       {
-        path: "/hotels",
+        path: "/moonway-travel/hotels",
         element: <Hotels />,
       },
       {
-        path: "/hotels/:id",
+        path: "/moonway-travel/hotels/:id",
         element: <HotelDetails />,
       },
       {
-        path: "/under-construction",
+        path: "/moonway-travel/under-construction",
         element: <UnderConstruction />,
       },
       {
-        path: "/contact",
+        path: "/moonway-travel/contact",
         element: <Contact />,
       },
       {
-        path: "/confirmed",
+        path: "/moonway-travel/confirmed",
         element: <BookingConfirmed />,
       },
     ],
@@ -47,9 +47,7 @@ const appRouter = createBrowserRouter([
 ]);
 
 const App = () => {
-  return (
-    <RouterProvider router={appRouter} basename={import.meta.env.BASE_URL} />
-  );
+  return <RouterProvider router={appRouter} basename="/moonway-travel/" />;
 };
 
 export default App;

@@ -1,4 +1,5 @@
 import Marquee from "react-fast-marquee";
+import imageMarquee from "../../public/images/newsletter2.png";
 
 const MarqueeExample = () => {
   const marqueeBanner = [
@@ -29,7 +30,7 @@ const MarqueeExample = () => {
         {marqueeBanner.map((marquee, index) => (
           <div key={index} className="flex items-center mr-10">
             <img
-              src="/images/newsletter2.png"
+              src={imageMarquee}
               alt="Newsletter Logo"
               className="w-32 mr-4"
             />

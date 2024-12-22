@@ -1,8 +1,10 @@
+import aboutImage from "../../public/images/about-image.jpg";
+
 const About = () => {
   return (
     <section className="flex flex-col min-h-screen justify-center items-center py-8 px-4 bg-gray-100">
       <img
-        src="/images/about-image.jpg"
+        src={aboutImage}
         alt="About Us"
         loading="lazy"
         className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 h-auto rounded-full mb-6 object-cover"

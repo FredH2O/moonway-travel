@@ -10,7 +10,7 @@ const Hotels = () => {
   useEffect(() => {
     const fetchedHotels = async () => {
       try {
-        const response = await axios.get("/data/hotels.json");
+        const response = await axios.get("/moonway-travel/data/hotels.json");
         setHotels(response.data);
         setLoading(false);
       } catch (err) {
@@ -42,7 +42,7 @@ const Hotels = () => {
           <HotelCard
             key={hotel.id}
             id={hotel.id}
-            image={hotel.imageUrl}
+            image={`/moonway-travel/${hotel.imageUrl}`}
             name={hotel.name}
             location={hotel.location}
             rating={hotel.rating}

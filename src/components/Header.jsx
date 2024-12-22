@@ -27,27 +27,27 @@ const Header = () => {
 
   const navigationLinks = [
     {
-      to: "/",
+      to: "/moonway-travel/",
       label: "Home",
       icon: <HomeIcon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/hotels",
+      to: "/moonway-travel/hotels",
       label: "Hotels",
       icon: <BuildingOffice2Icon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/about",
+      to: "/moonway-travel/about",
       label: "About Us",
       icon: <UsersIcon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/under-construction",
+      to: "/moonway-travel/under-construction",
       label: "Destinations",
       icon: <GlobeEuropeAfricaIcon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/contact",
+      to: "/moonway-travel/contact",
       label: "Contact",
       icon: <ChatBubbleLeftIcon className="w-5 h-5 text-secondary mr-1" />,
     },
