@@ -37,24 +37,19 @@ const Header = () => {
       icon: <BuildingOffice2Icon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/destinations",
-      label: "Destinations",
-      icon: <GlobeEuropeAfricaIcon className="w-5 h-5 text-secondary mr-1" />,
-    },
-    {
       to: "/about",
       label: "About Us",
       icon: <UsersIcon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
+      to: "/under-construction",
+      label: "Destinations",
+      icon: <GlobeEuropeAfricaIcon className="w-5 h-5 text-secondary mr-1" />,
+    },
+    {
       to: "/contact",
       label: "Contact",
       icon: <ChatBubbleLeftIcon className="w-5 h-5 text-secondary mr-1" />,
-    },
-    {
-      to: "/booking",
-      label: "Book Now",
-      icon: <BookmarkIcon className="w-5 h-5 text-secondary mr-1" />,
     },
   ];
 

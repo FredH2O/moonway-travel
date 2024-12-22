@@ -46,7 +46,6 @@
     },
     "availableActivities": ["Snorkeling", "Island Hopping", "Beach Yoga"],
     "discounts": "20% off for bookings in January 2024",
-    "bookingUrl": "https://www.seasideparadise.com/book",
     "nearbyAttractions": [
       "Island Museum",
       "Coral Reef Diving",
@@ -94,7 +93,6 @@
     },
     "availableActivities": ["Skiing", "Mountain Hiking", "Wine Tasting"],
     "discounts": "10% off for winter bookings",
-    "bookingUrl": "https://www.mountainretreat.com/book",
     "nearbyAttractions": ["Matterhorn Glacier", "Zermatt Ski Resort"],
     "policies": {
       "checkIn": "4:00 PM",
@@ -143,7 +141,6 @@
     },
     "availableActivities": ["Broadway Shows", "Shopping", "City Tours"],
     "discounts": "20% off for early bookings",
-    "bookingUrl": "https://www.urbanoasis.com/book",
     "nearbyAttractions": [
       "Central Park",
       "Empire State Building",
@@ -202,7 +199,6 @@
     },
     "availableActivities": ["Camel Riding", "Sandboarding", "Luxury Shopping"],
     "discounts": "15% off for summer bookings",
-    "bookingUrl": "https://www.desertdream.com/book",
     "nearbyAttractions": ["Burj Khalifa", "Dubai Mall", "Desert Safari Tours"],
     "policies": {
       "checkIn": "2:00 PM",
@@ -251,7 +247,6 @@
     },
     "availableActivities": ["Surfing", "Beach Volleyball", "Snorkeling"],
     "discounts": "25% off for early May bookings",
-    "bookingUrl": "https://www.tropicalescape.com/book",
     "nearbyAttractions": [
       "Sacred Monkey Forest Sanctuary",
       "Tegallalang Rice Terraces"
@@ -307,7 +302,6 @@
       "Rome City Walking Tour"
     ],
     "discounts": "15% off for June 2024 bookings",
-    "bookingUrl": "https://www.historichaven.com/book",
     "nearbyAttractions": ["Colosseum", "Vatican Museums", "Pantheon"],
     "policies": {
       "checkIn": "3:00 PM",
@@ -356,7 +350,6 @@
     },
     "availableActivities": ["Safari Tours", "Bush Walks", "Photography"],
     "discounts": "10% off for early bookings",
-    "bookingUrl": "https://www.safarilodge.com/book",
     "nearbyAttractions": ["Serengeti National Park", "Ngorongoro Crater"],
     "policies": {
       "checkIn": "2:00 PM",
@@ -410,7 +403,6 @@
     },
     "availableActivities": ["Beach Sports", "Surfing", "Snorkeling"],
     "discounts": "5% off for bookings in the off-season",
-    "bookingUrl": "https://www.oceanbreeze.com/book",
     "nearbyAttractions": ["Surfers Paradise", "Currumbin Wildlife Sanctuary"],
     "policies": {
       "checkIn": "3:00 PM",
@@ -459,7 +451,6 @@
     },
     "availableActivities": ["Rainforest Hikes", "Bird Watching", "Zip-lining"],
     "discounts": "15% off for bookings made in advance",
-    "bookingUrl": "https://www.rainforestretreat.com/book",
     "nearbyAttractions": ["Monteverde Cloud Forest", "Arenal Volcano"],
     "policies": {
       "checkIn": "4:00 PM",
@@ -514,7 +505,6 @@
     },
     "availableActivities": ["Snorkeling", "Surfing", "Beach Volleyball"],
     "discounts": "10% off for early bookings",
-    "bookingUrl": "https://www.islandbliss.com/book",
     "nearbyAttractions": ["Hanauma Bay", "Waikiki Beach", "Diamond Head"],
     "policies": {
       "checkIn": "3:00 PM",

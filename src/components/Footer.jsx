@@ -1,3 +1,4 @@
+import React from "react";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -12,16 +13,16 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/moonway-plus">Moonway Plus</Link>
+              <Link to="/under-construction">Moonway Plus</Link>
             </li>
             <li>
-              <Link to="/moonway-premium-rooms">Moonway Premium Rooms</Link>
+              <Link to="/under-construction">Moonway Premium Rooms</Link>
             </li>
             <li>
-              <Link to="/our-rooms">Our Rooms</Link>
+              <Link to="/under-construction">Our Rooms</Link>
             </li>
             <li>
-              <Link to="/deal-offers">Deal Offers</Link>
+              <Link to="/under-construction">Deal Offers</Link>
             </li>
           </ul>
         </div>
@@ -33,21 +34,19 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/under-construction">Blog</Link>
             </li>
             <li>
-              <Link to="/find-a-hotel">Find a Hotel</Link>
+              <Link to="/hotels">Find a Hotel</Link>
             </li>
             <li>
-              <Link to="/wedding-accommodations">Wedding Accommodations</Link>
+              <Link to="/under-construction">Wedding Accommodations</Link>
             </li>
             <li>
-              <Link to="/conference-accommodations">
-                Conference Accommodations
-              </Link>
+              <Link to="/under-construction">Conference Accommodations</Link>
             </li>
             <li>
-              <Link to="/group-bookings">Group Bookings</Link>
+              <Link to="/under-construction">Group Bookings</Link>
             </li>
           </ul>
         </div>
@@ -59,14 +58,17 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link className="hover:text-accent transition-all" to="/covid-19">
+              <Link
+                className="hover:text-accent transition-all"
+                to="/under-construction"
+              >
                 Covid-19
               </Link>
             </li>
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/our-responsibilities"
+                to="/under-construction"
               >
                 Our Responsibilities
               </Link>
@@ -74,7 +76,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/testimonials"
+                to="/under-construction"
               >
                 Testimonials
               </Link>
@@ -82,7 +84,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/newsletters"
+                to="/under-construction"
               >
                 Newsletters
               </Link>
@@ -90,7 +92,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/travel-tips"
+                to="/under-construction"
               >
                 Travel Tips
               </Link>
@@ -105,22 +107,22 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link
-                className="hover:text-accent transition-all"
-                to="/contact-us"
-              >
+              <Link className="hover:text-accent transition-all" to="/contact">
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link className="hover:text-accent transition-all" to="/careers">
+              <Link
+                className="hover:text-accent transition-all"
+                to="/under-construction"
+              >
                 Careers
               </Link>
             </li>
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/terms-and-conditions"
+                to="/under-construction"
               >
                 T&Cs
               </Link>
@@ -128,7 +130,7 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/privacy-policy"
+                to="/under-construction"
               >
                 Privacy Policy
               </Link>
@@ -136,13 +138,16 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-accent transition-all"
-                to="/data-access"
+                to="/under-construction"
               >
                 Data Access
               </Link>
             </li>
             <li>
-              <Link className="hover:text-accent transition-all" to="/cookies">
+              <Link
+                className="hover:text-accent transition-all"
+                to="/under-construction"
+              >
                 Cookies
               </Link>
             </li>

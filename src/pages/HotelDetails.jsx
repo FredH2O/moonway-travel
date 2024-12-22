@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const HotelDetails = () => {
   const { id } = useParams(); // hotel id
@@ -148,12 +149,12 @@ const HotelDetails = () => {
           </div>
 
           <div className="text-center mt-6">
-            <a
-              href={hotel.bookingUrl}
+            <Link
+              to={"/confirmed"}
               className="bg-accent hover:bg-blue-500 text-white py-2 px-4 rounded-full"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

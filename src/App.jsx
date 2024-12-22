@@ -5,6 +5,9 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Hotels from "./pages/Hotels";
 import HotelDetails from "./pages/HotelDetails";
+import UnderConstruction from "./pages/UnderConstruction";
+import Contact from "./pages/Contact";
+import BookingConfirmed from "./pages/Confirmed";
 
 const appRouter = createBrowserRouter([
   {
@@ -26,6 +29,18 @@ const appRouter = createBrowserRouter([
       {
         path: "/hotels/:id",
         element: <HotelDetails />,
+      },
+      {
+        path: "/under-construction",
+        element: <UnderConstruction />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/confirmed",
+        element: <BookingConfirmed />,
       },
     ],
   },

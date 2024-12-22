@@ -1,5 +1,5 @@
-import Booking from "./Booking";
 import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <div className="relative w-full h-screen">
