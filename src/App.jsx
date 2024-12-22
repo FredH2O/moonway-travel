@@ -47,7 +47,9 @@ const appRouter = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={appRouter} basename="/moonway-travel" />;
+  return (
+    <RouterProvider router={appRouter} basename={import.meta.env.BASE_URL} />
+  );
 };
 
 export default App;
