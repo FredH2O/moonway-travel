@@ -1,5 +1,5 @@
 import Booking from "./Booking";
-
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <div className="relative w-full h-screen">
@@ -17,9 +17,11 @@ const HeroSection = () => {
             Explore the world with us and create unforgettable memories. Your
             dream destination awaits!
           </p>
-          <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-accent hover:text-black transition mt-5">
-            Book Now !
-          </button>
+          <Link to="/hotels">
+            <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-accent hover:text-black transition mt-5">
+              Book Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>

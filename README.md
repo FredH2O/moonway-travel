@@ -1,8 +1,27 @@
-# React + Vite
+# Moonway Travel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A hotel booking web app built with React. Explore hotels with a user-friendly interface.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React, Tailwind CSS, HTML, CSS, JavaScript, Axios
+- **Tools**: Vite (development), React Router, React Icons, Headless UI, Heroicons, Animate.css
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/FredH2O/moonway-travel.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+## License
+
+MIT License.

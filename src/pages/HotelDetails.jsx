@@ -40,7 +40,7 @@ const HotelDetails = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="max-w-4xl md:my-10 w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <img
           src={hotel.imageUrl}
           alt={hotel.name}
@@ -73,6 +73,87 @@ const HotelDetails = () => {
                 </li>
               ))}
             </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">
+              Price Range:
+            </h3>
+            <ul className="list-disc pl-5 text-gray-600">
+              {Object.entries(hotel.priceRange).map(
+                ([roomType, range, asd]) => (
+                  <li key={roomType}>
+                    {roomType}: {range}
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">
+              Available Activities:
+            </h3>
+            <ul className="list-disc pl-5 text-gray-600">
+              {hotel.availableActivities.map((activity, index) => (
+                <li key={index}>{activity}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">Discounts:</h3>
+            <p className="text-gray-600">{hotel.discounts}</p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">
+              Contact Info:
+            </h3>
+            <p className="text-gray-600">
+              <span className="font-semibold">Phone:</span>{" "}
+              {hotel.contactInfo.phone}
+            </p>
+            <p className="text-gray-600">
+              <span className="font-semibold">Email:</span>{" "}
+              {hotel.contactInfo.email}
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">
+              Nearby Attractions:
+            </h3>
+            <ul className="list-disc pl-5 text-gray-600">
+              {hotel.nearbyAttractions.map((attraction, index) => (
+                <li key={index}>{attraction}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800">Policies:</h3>
+            <p className="text-gray-600">
+              <span className="font-semibold">Check-in:</span>{" "}
+              {hotel.policies.checkIn}
+            </p>
+            <p className="text-gray-600">
+              <span className="font-semibold">Check-out:</span>{" "}
+              {hotel.policies.checkOut}
+            </p>
+            <p className="text-gray-600">
+              <span className="font-semibold">Cancellation:</span>{" "}
+              {hotel.policies.cancellation}
+            </p>
+          </div>
+
+          <div className="text-center mt-6">
+            <a
+              href={hotel.bookingUrl}
+              className="bg-accent hover:bg-blue-500 text-white py-2 px-4 rounded-full"
+            >
+              Book Now
+            </a>
           </div>
         </div>
       </div>

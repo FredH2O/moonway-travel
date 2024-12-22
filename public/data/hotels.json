@@ -16,7 +16,47 @@
         "roomType": "Family Room",
         "amount": 3
       }
-    ]
+    ],
+    "amenities": [
+      "Free WiFi",
+      "Private Beach",
+      "Spa",
+      "Swimming Pool",
+      "Fitness Center"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Amazing experience! The view and service were exceptional.",
+        "author": "John Doe"
+      },
+      {
+        "rating": 4.8,
+        "comment": "Great place, perfect for a family vacation.",
+        "author": "Jane Smith"
+      }
+    ],
+    "priceRange": {
+      "Deluxe Suite": "€300 - €500 per night",
+      "Family Room": "€200 - €350 per night"
+    },
+    "contactInfo": {
+      "phone": "+960 123 4567",
+      "email": "info@seasideparadise.com"
+    },
+    "availableActivities": ["Snorkeling", "Island Hopping", "Beach Yoga"],
+    "discounts": "20% off for bookings in January 2024",
+    "bookingUrl": "https://www.seasideparadise.com/book",
+    "nearbyAttractions": [
+      "Island Museum",
+      "Coral Reef Diving",
+      "Sunset Cruise"
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 14 days before arrival"
+    }
   },
   {
     "id": 2,
@@ -31,7 +71,36 @@
         "roomType": "Standard Room",
         "amount": 10
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "Hot Tub", "Ski Equipment", "Sauna"],
+    "reviews": [
+      {
+        "rating": 4.7,
+        "comment": "A peaceful retreat with beautiful views.",
+        "author": "Alice Johnson"
+      },
+      {
+        "rating": 4.5,
+        "comment": "Perfect for skiing, but could improve food options.",
+        "author": "Mark Davis"
+      }
+    ],
+    "priceRange": {
+      "Standard Room": "€150 - €250 per night"
+    },
+    "contactInfo": {
+      "phone": "+41 123 456789",
+      "email": "info@mountainretreat.com"
+    },
+    "availableActivities": ["Skiing", "Mountain Hiking", "Wine Tasting"],
+    "discounts": "10% off for winter bookings",
+    "bookingUrl": "https://www.mountainretreat.com/book",
+    "nearbyAttractions": ["Matterhorn Glacier", "Zermatt Ski Resort"],
+    "policies": {
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 7 days before arrival"
+    }
   },
   {
     "id": 3,
@@ -50,7 +119,41 @@
         "roomType": "Standard Room",
         "amount": 20
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "Rooftop Bar", "Gym", "Concierge Service"],
+    "reviews": [
+      {
+        "rating": 4.6,
+        "comment": "Convenient location with great service.",
+        "author": "Sarah Lee"
+      },
+      {
+        "rating": 4.3,
+        "comment": "The room was nice, but noisy at night.",
+        "author": "David Moore"
+      }
+    ],
+    "priceRange": {
+      "Luxury Suite": "€500 - €800 per night",
+      "Standard Room": "€200 - €350 per night"
+    },
+    "contactInfo": {
+      "phone": "+1 212 123 4567",
+      "email": "info@urbanoasis.com"
+    },
+    "availableActivities": ["Broadway Shows", "Shopping", "City Tours"],
+    "discounts": "20% off for early bookings",
+    "bookingUrl": "https://www.urbanoasis.com/book",
+    "nearbyAttractions": [
+      "Central Park",
+      "Empire State Building",
+      "Times Square"
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 5 days before arrival"
+    }
   },
   {
     "id": 4,
@@ -69,7 +172,43 @@
         "roomType": "Family Room",
         "amount": 5
       }
-    ]
+    ],
+    "amenities": [
+      "Free WiFi",
+      "Swimming Pool",
+      "Desert Safari",
+      "Spa",
+      "Shopping Mall"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Luxury experience in the heart of the desert.",
+        "author": "Michael Thompson"
+      },
+      {
+        "rating": 4.7,
+        "comment": "Beautiful resort, but the weather was a bit too hot.",
+        "author": "Emily Carter"
+      }
+    ],
+    "priceRange": {
+      "Luxury Villa": "€700 - €1000 per night",
+      "Family Room": "€300 - €500 per night"
+    },
+    "contactInfo": {
+      "phone": "+971 4 123 4567",
+      "email": "info@desertdream.com"
+    },
+    "availableActivities": ["Camel Riding", "Sandboarding", "Luxury Shopping"],
+    "discounts": "15% off for summer bookings",
+    "bookingUrl": "https://www.desertdream.com/book",
+    "nearbyAttractions": ["Burj Khalifa", "Dubai Mall", "Desert Safari Tours"],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 10 days before arrival"
+    }
   },
   {
     "id": 5,
@@ -88,7 +227,40 @@
         "roomType": "Garden Room",
         "amount": 12
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "Beachfront Pool", "Spa", "Yoga Classes"],
+    "reviews": [
+      {
+        "rating": 4.9,
+        "comment": "Perfect getaway for relaxation and nature lovers.",
+        "author": "Sophia King"
+      },
+      {
+        "rating": 4.6,
+        "comment": "Amazing beaches, but food could be improved.",
+        "author": "Lucas Harris"
+      }
+    ],
+    "priceRange": {
+      "Beach Villa": "€400 - €600 per night",
+      "Garden Room": "€150 - €250 per night"
+    },
+    "contactInfo": {
+      "phone": "+62 361 123 4567",
+      "email": "info@tropicalescape.com"
+    },
+    "availableActivities": ["Surfing", "Beach Volleyball", "Snorkeling"],
+    "discounts": "25% off for early May bookings",
+    "bookingUrl": "https://www.tropicalescape.com/book",
+    "nearbyAttractions": [
+      "Sacred Monkey Forest Sanctuary",
+      "Tegallalang Rice Terraces"
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 14 days before arrival"
+    }
   },
   {
     "id": 6,
@@ -107,7 +279,41 @@
         "roomType": "Luxury Suite",
         "amount": 5
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "On-Site Restaurant", "Bar", "Fitness Center"],
+    "reviews": [
+      {
+        "rating": 4.5,
+        "comment": "Great location, close to major attractions.",
+        "author": "Gianna Rossi"
+      },
+      {
+        "rating": 4.2,
+        "comment": "Could use more modern amenities.",
+        "author": "Oliver Taylor"
+      }
+    ],
+    "priceRange": {
+      "Classic Room": "€180 - €300 per night",
+      "Luxury Suite": "€350 - €500 per night"
+    },
+    "contactInfo": {
+      "phone": "+39 06 1234567",
+      "email": "info@historichaven.com"
+    },
+    "availableActivities": [
+      "Vatican Tour",
+      "Colosseum Visit",
+      "Rome City Walking Tour"
+    ],
+    "discounts": "15% off for June 2024 bookings",
+    "bookingUrl": "https://www.historichaven.com/book",
+    "nearbyAttractions": ["Colosseum", "Vatican Museums", "Pantheon"],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 7 days before arrival"
+    }
   },
   {
     "id": 7,
@@ -126,7 +332,37 @@
         "roomType": "Family Suite",
         "amount": 3
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "Safari Tours", "Outdoor Pool", "Barbecue Area"],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "An unforgettable safari experience!",
+        "author": "John Smith"
+      },
+      {
+        "rating": 4.8,
+        "comment": "Incredible wildlife, but the tent was a bit small.",
+        "author": "Rachel Brown"
+      }
+    ],
+    "priceRange": {
+      "Luxury Tent": "€400 - €600 per night",
+      "Family Suite": "€500 - €700 per night"
+    },
+    "contactInfo": {
+      "phone": "+255 123 456789",
+      "email": "info@safarilodge.com"
+    },
+    "availableActivities": ["Safari Tours", "Bush Walks", "Photography"],
+    "discounts": "10% off for early bookings",
+    "bookingUrl": "https://www.safarilodge.com/book",
+    "nearbyAttractions": ["Serengeti National Park", "Ngorongoro Crater"],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 7 days before arrival"
+    }
   },
   {
     "id": 8,
@@ -145,7 +381,42 @@
         "roomType": "Family Room",
         "amount": 8
       }
-    ]
+    ],
+    "amenities": [
+      "Free WiFi",
+      "Swimming Pool",
+      "BBQ Facilities",
+      "Beach Access"
+    ],
+    "reviews": [
+      {
+        "rating": 4.4,
+        "comment": "Great location and beach access.",
+        "author": "Alice White"
+      },
+      {
+        "rating": 4.1,
+        "comment": "Nice place, but the rooms could use some renovation.",
+        "author": "Tom Green"
+      }
+    ],
+    "priceRange": {
+      "Ocean View Suite": "€200 - €400 per night",
+      "Family Room": "€250 - €350 per night"
+    },
+    "contactInfo": {
+      "phone": "+61 123 456789",
+      "email": "info@oceanbreeze.com"
+    },
+    "availableActivities": ["Beach Sports", "Surfing", "Snorkeling"],
+    "discounts": "5% off for bookings in the off-season",
+    "bookingUrl": "https://www.oceanbreeze.com/book",
+    "nearbyAttractions": ["Surfers Paradise", "Currumbin Wildlife Sanctuary"],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "10:00 AM",
+      "cancellation": "Free cancellation up to 5 days before arrival"
+    }
   },
   {
     "id": 9,
@@ -164,7 +435,37 @@
         "roomType": "Standard Room",
         "amount": 10
       }
-    ]
+    ],
+    "amenities": ["Free WiFi", "Rainforest Tours", "Spa", "Restaurant"],
+    "reviews": [
+      {
+        "rating": 4.8,
+        "comment": "A peaceful oasis in the rainforest.",
+        "author": "Sophia Adams"
+      },
+      {
+        "rating": 4.5,
+        "comment": "Beautiful setting, but the weather was humid.",
+        "author": "Michael Scott"
+      }
+    ],
+    "priceRange": {
+      "Jungle Bungalow": "€350 - €500 per night",
+      "Standard Room": "€150 - €300 per night"
+    },
+    "contactInfo": {
+      "phone": "+506 123 456789",
+      "email": "info@rainforestretreat.com"
+    },
+    "availableActivities": ["Rainforest Hikes", "Bird Watching", "Zip-lining"],
+    "discounts": "15% off for bookings made in advance",
+    "bookingUrl": "https://www.rainforestretreat.com/book",
+    "nearbyAttractions": ["Monteverde Cloud Forest", "Arenal Volcano"],
+    "policies": {
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 10 days before arrival"
+    }
   },
   {
     "id": 10,
@@ -183,6 +484,42 @@
         "roomType": "Standard Room",
         "amount": 15
       }
-    ]
+    ],
+    "amenities": [
+      "Free WiFi",
+      "Private Beach",
+      "Outdoor Pool",
+      "Spa",
+      "Restaurant"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Perfect for a relaxing beach getaway.",
+        "author": "Olivia Martinez"
+      },
+      {
+        "rating": 4.7,
+        "comment": "Great service and facilities, but a bit pricey.",
+        "author": "Ethan Harris"
+      }
+    ],
+    "priceRange": {
+      "Beachfront Suite": "€600 - €900 per night",
+      "Standard Room": "€250 - €400 per night"
+    },
+    "contactInfo": {
+      "phone": "+1 808 123 4567",
+      "email": "info@islandbliss.com"
+    },
+    "availableActivities": ["Snorkeling", "Surfing", "Beach Volleyball"],
+    "discounts": "10% off for early bookings",
+    "bookingUrl": "https://www.islandbliss.com/book",
+    "nearbyAttractions": ["Hanauma Bay", "Waikiki Beach", "Diamond Head"],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 7 days before arrival"
+    }
   }
 ]
