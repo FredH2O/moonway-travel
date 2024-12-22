@@ -20,7 +20,6 @@ const HeroSection = () => {
           <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-accent hover:text-black transition mt-5">
             Book Now !
           </button>
-          <Booking />
         </div>
       </div>
     </div>

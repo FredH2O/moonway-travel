@@ -1,7 +1,5 @@
 const Booking = () => {
-    return (
-
-    )
-}
+  return <></>;
+};
 
 export default Booking;
