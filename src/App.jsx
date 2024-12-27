@@ -8,6 +8,7 @@ import HotelDetails from "./pages/HotelDetails";
 import UnderConstruction from "./pages/UnderConstruction";
 import Contact from "./pages/Contact";
 import BookingConfirmed from "./pages/Confirmed";
+import DestinationDeals from "./pages/DestinationDeals";
 
 const appRouter = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/moonway-travel/hotels/:id",
         element: <HotelDetails />,
+      },
+      {
+        path: "/moonway-travel/destinationdeals",
+        element: <DestinationDeals />,
       },
       {
         path: "/moonway-travel/under-construction",

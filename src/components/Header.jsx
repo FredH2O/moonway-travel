@@ -42,7 +42,7 @@ const Header = () => {
       icon: <UsersIcon className="w-5 h-5 text-secondary mr-1" />,
     },
     {
-      to: "/moonway-travel/under-construction",
+      to: "/moonway-travel/destinationdeals",
       label: "Destinations",
       icon: <GlobeEuropeAfricaIcon className="w-5 h-5 text-secondary mr-1" />,
     },
